@@ -11,10 +11,16 @@
 }
 
 body  {
-  background-image: url('../images/background-mobile.png');
+  background-color: #EAEFF3;
+  /* background-image: url('../images/background-mobile.png');
   object-fit: cover;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+}
+
+a:hover {
+  color: #E84A5F;
+  font-weight: 400;
 }
 
 nav {
@@ -30,6 +36,7 @@ nav {
 nav a {
   font-size: 25px;
   font-weight: 400;
+  z-index: 2;
 }
 
 .title {
@@ -51,4 +58,31 @@ h2 {
 h3 {
   font-weight: 200;
   font-size: 56px;
+}
+
+.projects {
+  position: absolute;
+  top: 850px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects h4 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.projects a {
+  font-size: 30px;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.square-one {
+  position: absolute;
+  right: 7%;
+  width: 97px;
+  height: 71px;
+  background-color: #E84A5F;
 }
