@@ -7,23 +7,35 @@
   color: #2A2F3D;
   text-align: center;
   letter-spacing: -7%;
+  /* line-height: 128px; */
 }
 
 body  {
-  /* background-color: #EAEFF3; */
   background-image: url('../images/background-mobile.png');
   object-fit: cover;
   background-size: cover;
   background-attachment: fixed;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 15px;
+  width: 100vw;
+  padding-right: 10%;
+
+}
+
+nav a {
+  font-size: 25px;
+  font-weight: 400;
+}
+
 .title {
   position: absolute;
   top: 154px;
   width: 100vw;
-  /* display: flex;
-  flex-direction: column;
-  place-items: center; */
 }
 
 h1 {
