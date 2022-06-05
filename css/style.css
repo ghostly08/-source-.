@@ -6,16 +6,16 @@
   font-family: 'Manrope', sans-serif;
   color: #2A2F3D;
   text-align: center;
-  letter-spacing: -7%;
-  /* line-height: 128px; */
+  letter-spacing: -3px;
+  line-height: 68px;
 }
 
 body  {
-  background-color: #EAEFF3;
-  /* background-image: url('../images/background-mobile.png');
+  /* background-color: #EAEFF3; */
+  background-image: url('../images/background-mobile.png');
   object-fit: cover;
   background-size: cover;
-  background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 a:hover {
@@ -41,8 +41,10 @@ nav a {
 
 .title {
   position: absolute;
-  top: 154px;
+  top: 178px;
   width: 100vw;
+  /* text-align: right;
+  margin-right: 8%; */
 }
 
 h1 {
@@ -55,9 +57,37 @@ h2 {
   font-size: 65px;
 }
 
-h3 {
+.name {
+  margin-bottom: 20px;
+}
+
+.name h3 {
   font-weight: 200;
-  font-size: 56px;
+  font-size: 58px;
+}
+
+.name h2 {
+  font-size: 75px;
+  font-weight: 500;
+}
+
+.roll {
+  margin-bottom: 20px;
+}
+
+.roll h1 {
+  font-size: 91px;
+  font-weight: 500;
+}
+
+.location h3 {
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.location h2 {
+  font-size: 70px;
+  font-weight: 500;
 }
 
 .projects {
@@ -85,4 +115,14 @@ h3 {
   width: 97px;
   height: 71px;
   background-color: #E84A5F;
+}
+
+.square-two {
+  position: absolute;
+  left: 13%;
+  top: 179px;
+  width: 97px;
+  height: 71px;
+  background-color: #E84A5F;
+  z-index: -1;
 }
