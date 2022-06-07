@@ -1,0 +1,33 @@
+#about-popup {
+  display: block;
+  position: absolute;
+  background-color: #2A2F3D;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+}
+
+#about-popup img {
+  width: 127px;
+  border-radius: 50%;
+  position: relative;
+  top: 5%;
+}
+
+#about-popup p {
+  position: relative;
+  top: 4%;
+  color: whitesmoke;
+  font-size: 26px;
+  font-weight: 200;
+  letter-spacing: -1px;
+  line-height: 44px;
+  margin: 0 3%;
+}
+
+#about-popup strong {
+  color: #E84A5F;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: -1px;
+}

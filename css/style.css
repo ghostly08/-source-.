@@ -1,3 +1,5 @@
+@import url("components/about.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -43,8 +45,7 @@ nav a {
   position: absolute;
   top: 178px;
   width: 100vw;
-  /* text-align: right;
-  margin-right: 8%; */
+  z-index: 2;
 }
 
 h1 {
