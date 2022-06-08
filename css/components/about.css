@@ -1,21 +1,32 @@
-#about-popup {
+@keyframes open-popup {
+  from {height: 0;}
+  to {height: 100vh;}
+}
+
+.about-popup {
   display: none;
   position: absolute;
+  top: 0;
   background-color: #2A2F3D;
   width: 100vw;
-  height: 100vh;
+  height: 0;
+  animation-name: open-popup;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transition-timing-function: ease-out;
   z-index: 3;
 }
 
 
-#about-popup img {
+.about-popup img {
   width: 127px;
   border-radius: 50%;
   position: relative;
   top: 5%;
 }
 
-#about-popup p {
+.about-popup p {
   position: relative;
   top: 4%;
   color: whitesmoke;
@@ -26,7 +37,7 @@
   margin: 0 3%;
 }
 
-#about-popup strong {
+.about-popup strong {
   color: #E84A5F;
   font-weight: 300;
   line-height: 30px;
