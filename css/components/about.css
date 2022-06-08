@@ -7,12 +7,6 @@
   z-index: 3;
 }
 
-.fa-grip-lines {
-  position: relative;
-  font-size: 20px;
-  color: whitesmoke;
-  z-index: 4;
-}
 
 #about-popup img {
   width: 127px;
@@ -37,4 +31,12 @@
   font-weight: 300;
   line-height: 30px;
   letter-spacing: -1px;
+}
+
+.fa-grip-lines {
+  position: absolute;
+  bottom: 1%;
+  font-size: 40px;
+  color: whitesmoke;
+  z-index: 4;
 }
