@@ -1,10 +1,17 @@
 #about-popup {
-  display: block;
+  display: none;
   position: absolute;
   background-color: #2A2F3D;
   width: 100vw;
   height: 100vh;
   z-index: 3;
+}
+
+.fa-circle-x {
+  position: relative;
+  font-size: 20px;
+  color: whitesmoke;
+  z-index: 4;
 }
 
 #about-popup img {
