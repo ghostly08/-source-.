@@ -2,7 +2,7 @@
 
 function displayAbout() {
   const popUp = document.querySelector("#about-popup");
-  const openPopup = popUp.style.display = "block"
+  const openPopup = popUp.style.display = "block";
 }
 
 
@@ -10,7 +10,5 @@ function displayAbout() {
 
 function closePopup() {
   const popUp = document.querySelector("#about-popup");
-  const closePopup = popUp.style.display = "none"
-
-  console.log(closerElement);
+  const closePopup = popUp.style.display = "none";
 }
