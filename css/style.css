@@ -87,6 +87,7 @@ h2 {
   font-size: 30px;
   line-height: 1.5;
   letter-spacing: -2px;
+  text-decoration: underline 2px #E84A5F;
   cursor: pointer;
 }
 
