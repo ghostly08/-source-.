@@ -41,9 +41,16 @@ nav h4 {
   z-index: 2;
 }
 
-.title {
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  top: 178px;
+  top: 22%;
+}
+
+.title {
+  /* position: absolute;
+  top: 178px; */
   width: 100vw;
   z-index: 2;
 }
@@ -92,8 +99,8 @@ h2 {
 }
 
 .projects {
-  position: absolute;
-  top: 850px;
+  /* position: absolute;
+  top: 850px; */
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -126,4 +133,9 @@ h2 {
   height: 71px;
   background-color: #E84A5F;
   z-index: -1;
+}
+
+.contact {
+  /* position: absolute;
+  bottom: 10%; */
 }

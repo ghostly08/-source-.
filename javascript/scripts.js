@@ -10,5 +10,6 @@ function displayAbout() {
 
 function closePopup() {
   const popUp = document.querySelector("#about-popup");
-  const closePopup = popUp.style.display = "none";
+  const openPopup = popUp.style.display = "none";
+  // const closePopup = popUp.classList.add("close-popup");
 }

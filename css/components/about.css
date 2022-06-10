@@ -17,7 +17,27 @@
   transition-timing-function: ease-out;
   z-index: 3;
 }
+/* 
+@keyframes close-popup {
+  from {height: 100vh;}
+  to {height: 0;}
+}
 
+.about-popup.close-popup {
+  display: none;
+  position: absolute;
+  top: 100vh;
+  height: 100vh;
+  animation-name: close-popup;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transition-timing-function: ease-out;
+}
+
+.about-popup.close-popup p {
+  display: none;
+} */
 
 .about-popup img {
   width: 127px;
