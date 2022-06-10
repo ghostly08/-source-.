@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  /* overflow: hidden; */
+  position: absolute;
+  top: 0;
+  width: 90vw;
+  z-index: 2;
+}
+
+nav h4 {
+  font-size: 25px;
+  font-weight: 400;
+}
