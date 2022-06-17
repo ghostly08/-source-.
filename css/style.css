@@ -142,3 +142,33 @@ h2 {
   background-size: cover;
   background-attachment: fixed;
 }
+
+.apps-names {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.apps-names a {
+  font-size: 73px;
+  color: #2A2F3D;
+  text-align: left;
+}
+
+.square-js {
+  position: absolute;
+  top: 0;
+  right: 7%;
+  width: 97px;
+  height: 71px;
+  background-color: #30384C;;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h4 {
+  color: whitesmoke;
+}
