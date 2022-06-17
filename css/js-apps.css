@@ -20,6 +20,20 @@ body {
   background-attachment: fixed;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 83%;
+  margin: 0 auto;
+}
+
+nav h4 {
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 400;
+  z-index: 3;
+}
+
 .text-wrapper {
   display: flex;
   flex-direction: column;
@@ -40,6 +54,10 @@ body {
   text-align: left;
 }
 
+.apps-names a:hover {
+  text-decoration: underline 3px #2A2F3D;
+}
+
 .square-js {
   position: absolute;
   top: 0;
@@ -47,13 +65,4 @@ body {
   width: 97px;
   height: 71px;
   background-color: #30384C;;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-nav h4 {
-  color: whitesmoke;
 }
