@@ -28,7 +28,7 @@ body  {
   flex-direction: column;
   flex-wrap: wrap;
   position: absolute;
-  top: 22%;
+  top: 11%;
   width: 96vw;
 }
 
@@ -90,7 +90,7 @@ h2 {
 }
 
 .location h2 {
-  font-size: 85px;
+  font-size: 147px;
   text-align: left;
 }
 
