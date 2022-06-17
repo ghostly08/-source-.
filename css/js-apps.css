@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  color: #2A2F3D;
+  text-align: center;
+  letter-spacing: -3px;
+  line-height: 68px;
+  text-decoration: none;
+}
+
+body {
+  background-image: url('../images/javascript-apps.png');
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 22%;
+  width: 100vw;
+}
+
+.apps-names {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2%;
+}
+
+.apps-names a {
+  font-size: 71px;
+  color: #2A2F3D;
+  text-align: left;
+}
+
+.square-js {
+  position: absolute;
+  top: 0;
+  right: 7%;
+  width: 97px;
+  height: 71px;
+  background-color: #30384C;;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h4 {
+  color: whitesmoke;
+}
