@@ -33,7 +33,7 @@ body  {
 .title {
   display: flex;
   flex-direction: column;
-  width: 98%;
+  width: 96%;
   margin: 0 auto;
 }
 
@@ -49,10 +49,6 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
   font-weight: 500;
 }
 
-h2 {
-  font-size: 86px;
-  line-height: .8;
-}
 
 .name {
   margin-bottom: 30px;
@@ -66,13 +62,11 @@ h2 {
 }
 
 .name h3 {
-  width: 347px;
-  height: 131px;
   font-size: 124px;
   text-align: left;
   line-height: .9;
   font-size: 78px;
-  line-height: 128px;
+  line-height: 85px;
   letter-spacing: 0.08em;
 }
 
@@ -89,22 +83,29 @@ h2 {
 }
 
 .roll h1 {
-  font-size: 96px;
+  font-size: 102px;
   text-align: left;
   font-weight: 500;
   line-height: .6;
   letter-spacing: -0.07em;
 }
 
+.roll h2 {
+  font-size: 85px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
 .location h3 {
   font-size: 103px;
-  display: none;
+
 }
 
 .location h2 {
   font-size: 147px;
   text-align: left;
-  display: none;
+  
 }
 
 .projects {
@@ -156,8 +157,8 @@ h2 {
 
 .square-two {
   position: absolute;
-  left: 13%;
-  top: 179px;
+  left: 8%;
+  top: 35px;
   width: 97px;
   height: 71px;
   background-color: #E84A5F;
