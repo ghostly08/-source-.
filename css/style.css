@@ -98,14 +98,16 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 }
 
 .location h3 {
-  font-size: 103px;
-
+  font-size: 88px;
+  text-align: left;
+  letter-spacing: 0.04em;
 }
 
 .location h2 {
-  font-size: 147px;
+  font-size: 89px;
   text-align: left;
-  
+  letter-spacing: -7px;
+  line-height: .9;
 }
 
 .projects {
