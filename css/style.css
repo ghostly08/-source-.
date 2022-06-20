@@ -113,14 +113,18 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 .projects {
   display: flex;
   flex-direction: column;
+  width: 96%;
+  margin: 0 auto;
 }
 
 .projects h4 {
-  font-size: 40px;
+  font-size: 60px;
+  text-align: left;
 }
 
 .projects a {
-  font-size: 30px;
+  font-size: 48px;
+  text-align: left;
   line-height: 1.5;
   letter-spacing: -2px;
   text-decoration: underline 2px #E84A5F;
@@ -133,11 +137,17 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
   text-decoration: solid;
 }
 
-.contact p {
-  font-size: 20px;
-  letter-spacing: 0;
-  width: 51%;
+.contact {
+  width: 96%;
   margin: 0 auto;
+}
+
+.contact p {
+  font-size: 26px;
+  text-align: left;
+  letter-spacing: 0;
+  width: 100%;
+  margin: 100px auto;
   line-height: 1.3;
 }
 
