@@ -176,3 +176,64 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
   background-color: #E84A5F;
   z-index: -1;
 }
+
+
+/* :::::::::::::::: Media Queries Desktop ::::::::::::::: */
+
+@media screen and (min-width: 992px) {
+  .text-wrapper {
+    width: 100%;
+  }
+
+  .name {
+    display: flex;
+    justify-content: baseline;
+
+  }
+
+  .im h4 {
+    position: absolute;
+    top: 63px;
+    left: 130px;
+    font-size: 130px;
+    line-height: .5;
+  }
+
+  .name h2 {
+    position: absolute;
+    top: 70px;
+    font-size: 120px;
+    line-height: .5;
+    width: 45%;
+    right: -36px;
+  }
+
+  .name h3 {
+    position: absolute;
+    top: 40px;
+    left: 317px;
+    width: 45%;
+    font-size: 115px;
+    line-height: 1.2;
+  }
+
+  .roll {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 190px;
+    left: 130px;
+  }
+
+  .roll h1 {
+    font-size: 150px;
+  }
+
+  .roll h2 {
+    font-size: 112px;
+  }
+
+  .location {
+    display: none;
+  }
+}
