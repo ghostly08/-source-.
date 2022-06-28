@@ -245,6 +245,7 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
   }
 
   .location {
-    display: none;
+    display: flex;
+    justify-content: flex-start;
   }
 }
