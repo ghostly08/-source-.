@@ -180,7 +180,7 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 
 /* :::::::::::::::: Media Queries Desktop ::::::::::::::: */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   .text-wrapper {
     width: 100%;
   }
