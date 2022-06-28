@@ -193,28 +193,31 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 
   .im h4 {
     position: absolute;
-    top: 63px;
-    left: 130px;
-    font-size: 130px;
+    top: 100px;
+    left: 100px;
+    font-size: 190px;
     line-height: .5;
+    letter-spacing: -7px;
   }
 
   .name h2 {
     position: absolute;
-    top: 70px;
-    font-size: 120px;
+    top: 106px;
+    font-size: 180px;
     line-height: .5;
     width: 45%;
-    right: -36px;
+    right: 55px;
+    letter-spacing: -7px;
   }
 
   .name h3 {
     position: absolute;
-    top: 40px;
-    left: 317px;
+    top: 44px;
+    left: 323px;
     width: 45%;
-    font-size: 115px;
+    font-size: 180px;
     line-height: 1.2;
+    letter-spacing: -7px;
   }
 
   .roll {
