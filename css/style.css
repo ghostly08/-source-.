@@ -63,12 +63,13 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 }
 
 .name h3 {
-  font-size: 124px;
+  font-size: 91px;
   text-align: left;
-  line-height: .9;
-  font-size: 78px;
+  /* line-height: .9; */
+  /* font-size: 78px; */
   line-height: 85px;
-  letter-spacing: 0.08em;
+  letter-spacing: .2em;
+  margin-bottom: 1%;
 }
 
 .name h4 {
@@ -202,6 +203,7 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
     font-size: 142px;
     line-height: .5;
     letter-spacing: -7px;
+    margin-bottom: 1%;
   }
 
   .square-two {
@@ -288,15 +290,22 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 
 
   .im h4 {
-    font-size: 190px;
+    font-size: 170px;
   }
 
   .name h2 {
-    font-size: 180px;
+    font-size: 192px;
+    top: 102px;
   }
 
   .name h3 {
-    font-size: 180px;
+    font-size: 169px;
+    left: 160px;
+    top: 54px;
+  }
+
+  .roll {
+    top: 252px;
   }
 
   .roll h1 {
@@ -309,17 +318,18 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 
   }
 
-  /* .location {
-
-  } */
+  .location {
+    top: 437px;
+  }
 
   .location h3 {
-    font-size: 212px;
+    font-size: 185px;
 
   }
 
   .location h2 {
-    font-size: 165px;
+    font-size: 175px;
+    top: -39px;
   }
 
   /* .projects {
