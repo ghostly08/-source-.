@@ -39,7 +39,7 @@ body  {
 }
 
 .title, .projects, .contact {
-  margin-bottom: 30%;
+  margin-bottom: 27%;
 }
 
 h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
@@ -197,36 +197,36 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 
   .im h4 {
     position: absolute;
-    top: 100px;
+    top: 110px;
     left: -3%;
-    font-size: 157px;
+    font-size: 142px;
     line-height: .5;
     letter-spacing: -7px;
   }
 
   .square-two {
     left: -1%;
-    top: 97px;
+    top: 86px;
     width: 121px;
     height: 106px;
   }
 
   .name h2 {
     position: absolute;
-    top: 106px;
-    font-size: 153px;
+    top: 105px;
+    font-size: 162px;
     line-height: .5;
     width: 45%;
-    right: 8%;
+    right: 10%;
     letter-spacing: -7px;
   }
 
   .name h3 {
     position: absolute;
-    top: 49px;
-    left: 146px;
+    top: 62px;
+    left: 139px;
     width: 45%;
-    font-size: 153px;
+    font-size: 141px;
     line-height: 1.2;
     letter-spacing: -7px;
   }
@@ -235,19 +235,19 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
     display: flex;
     justify-content: flex-start;
     position: absolute;
-    top: 252px;
+    top: 237px;
     width: 100%;
   }
 
   .roll h1 {
-    font-size: 165px;
+    font-size: 160px;
     margin-right: 3%;
   }
 
   .roll h2 {
-    font-size: 135px;
     position: relative;
-    top: -5px;
+    font-size: 140px;
+    top: -12px;
     letter-spacing: -7px;
   }
 
@@ -255,20 +255,20 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
     display: flex;
     justify-content: flex-start;
     position: absolute;
-    top: 411px;
+    top: 394px;
   }
 
   .location h3 {
-    font-size: 158px;
+    font-size: 148px;
     letter-spacing: -7px;
     margin-right: 32px;
   }
 
   .location h2 {
     position: relative;
-    top: -26px;
+    top: -34px;
     right: 1px;
-    font-size: 147px;
+    font-size: 155px;
   }
 
   .projects {
