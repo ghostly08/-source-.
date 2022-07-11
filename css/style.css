@@ -246,14 +246,14 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
   }
 
   .roll h1 {
-    font-size: 160px;
+    font-size: 203px;
     margin-right: 3%;
   }
 
   .roll h2 {
     position: relative;
-    font-size: 140px;
-    top: -12px;
+    font-size: 169px;
+    /* top: -12px; */
     letter-spacing: -7px;
   }
 
@@ -261,11 +261,11 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
     display: flex;
     justify-content: flex-start;
     position: absolute;
-    top: 394px;
+    top: 434px;
   }
 
   .location h3 {
-    font-size: 148px;
+    font-size: 159px;
     letter-spacing: -7px;
     margin-right: 32px;
   }
@@ -274,7 +274,7 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
     position: relative;
     top: -34px;
     right: 1px;
-    font-size: 155px;
+    font-size: 137px;
   }
 
   .projects {
