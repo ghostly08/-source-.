@@ -24,18 +24,9 @@ body  {
 }
 
 .text-wrapper {
-  display: flex;
-  flex-direction: column;
   position: absolute;
   top: 11%;
   width: 100%;
-}
-
-.title {
-  display: flex;
-  flex-direction: column;
-  width: 96%;
-  margin: 0 auto;
 }
 
 .title, .projects, .contact {
@@ -46,28 +37,26 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
   font-weight: 200;
 }
 
-.name h2, .location h2, .projects h4 {
+.name h2 {
+  font-weight: 400;
+}
+
+.location h2, .projects h4 {
   font-weight: 700;
 }
 
-
 .name {
-  margin-bottom: 6px;
-}
-
-.im {
-  display: flex;
+  margin-bottom: -7px;
 }
 
 .name h2 {
-  font-size: 100px;
-  width: 345px;
-  height: 94px;
-  text-align: left;
+  font-size: 24vw;
+  overflow-wrap: anywhere;
+  line-height: .8;
 }
 
 .name h3 {
-  font-size: 91px;
+  font-size: 22vw;
   text-align: left;
   line-height: 85px;
   letter-spacing: 2px;
@@ -77,7 +66,7 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 .name h4 {
   position: relative;
   top: -23px;
-  font-size: 91px;
+  font-size: 21vw;
   line-height: 128px;
   width: 93.54px;
   height: 95px;
@@ -86,51 +75,53 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 }
 
 .roll {
-  margin-bottom: 30px;
+  margin-bottom: -4px;
 }
 
 .roll h1 {
-  font-size: 174px;
-  text-align: left;
+  font-size: 41vw;
   font-weight: 600;
-  line-height: .7;
+  line-height: .8;
   letter-spacing: 16.5px;
 }
 
 .roll h2 {
-  font-size: 94px;
-  line-height: 1;
-  text-align: left;
+  font-size: 18vw;
+  line-height: .7;
 }
 
 .location h3 {
-  font-size: 102px;
-  text-align: left;
+  font-size: 42vw;
   letter-spacing: 1px;
+  line-height: .7;
+  overflow-wrap: anywhere;
+}
+
+.location.in h3 {
+  font-size: 101px;
+  letter-spacing: 1px;
+  margin-top: -37px;
 }
 
 .location h2 {
-  font-size: 89px;
-  text-align: left;
+  font-size: 32vw;
   letter-spacing: -4px;
-  line-height: 1.1;
+  line-height: .8;
+  overflow-wrap: anywhere;
 }
 
 .projects {
-  display: flex;
-  flex-direction: column;
-  width: 96%;
   margin: 0 auto;
 }
 
 .projects h4 {
   font-size: 60px;
-  text-align: left;
 }
 
 .projects a {
   font-size: 48px;
   text-align: left;
+  color: #E84A5F;
   line-height: 1.5;
   letter-spacing: -2px;
   text-decoration: underline 2px #E84A5F;
@@ -150,7 +141,6 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 
 .contact p {
   font-size: 26px;
-  text-align: left;
   letter-spacing: 0;
   width: 100%;
   margin: 100px auto;
@@ -189,99 +179,19 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 @media screen and (min-width: 992px) {
 
    .text-wrapper {
-    top: 8%;
+    top: 20%;
   }
 
-  .name {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    position: absolute;
-    left: 5%;
-  }
-
-  .im h4 {
-    position: absolute;
-    top: 110px;
-    left: -3%;
-    font-size: 142px;
-    line-height: .5;
-    letter-spacing: -7px;
-    margin-bottom: 1%;
-  }
-
-  .square-two {
-    left: -1%;
-    top: 86px;
-    width: 121px;
-    height: 106px;
-  }
-
-  .name h2 {
-    position: absolute;
-    top: 105px;
-    font-size: 162px;
-    line-height: .5;
-    width: 45%;
-    right: 10%;
-    letter-spacing: -7px;
+  .title {
+    margin-bottom: 13%;
   }
 
   .name h3 {
-    position: absolute;
-    top: 62px;
-    left: 139px;
-    width: 45%;
-    font-size: 141px;
-    line-height: 1.2;
-    letter-spacing: -7px;
-  }
-
-  .roll {
-    display: flex;
-    justify-content: flex-start;
-    position: absolute;
-    top: 237px;
-    width: 100%;
-  }
-
-  .roll h1 {
-    font-size: 203px;
-    margin-right: 3%;
-  }
-
-  .roll h2 {
-    position: relative;
-    font-size: 169px;
-    /* top: -12px; */
-    letter-spacing: -7px;
-  }
-
-  .location {
-    display: flex;
-    justify-content: flex-start;
-    position: absolute;
-    top: 434px;
+    margin-bottom: 9%;
   }
 
   .location h3 {
-    font-size: 159px;
-    letter-spacing: -7px;
-    margin-right: 32px;
-  }
-
-  .location h2 {
-    position: relative;
-    top: -34px;
-    right: 1px;
-    font-size: 137px;
-  }
-
-  .projects {
-    display: flex;
-    flex-direction: column;
-    width: 96%;
-    margin-top: 233px;
+    font-size: 25vw;
   }
 
 }
@@ -289,7 +199,7 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 
 /* :::::::::::::: Extra Large Desktop ::::::::::::::::::: */
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
 
 
 
@@ -339,4 +249,4 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
   /* .projects {
 
   } */
-}
+/*} */
