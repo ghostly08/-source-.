@@ -37,23 +37,26 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
   font-weight: 200;
 }
 
-.name h2, .location h2, .projects h4 {
+.name h2 {
+  font-weight: 400;
+}
+
+.location h2, .projects h4 {
   font-weight: 700;
 }
 
-
 .name {
-  margin-bottom: 6px;
+  margin-bottom: -7px;
 }
 
 .name h2 {
-  font-size: 98px;
-  width: 100%;
-  text-align: center;
+  font-size: 24vw;
+  overflow-wrap: anywhere;
+  line-height: .8;
 }
 
 .name h3 {
-  font-size: 84px;
+  font-size: 22vw;
   text-align: left;
   line-height: 85px;
   letter-spacing: 2px;
@@ -63,7 +66,7 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 .name h4 {
   position: relative;
   top: -23px;
-  font-size: 87px;
+  font-size: 21vw;
   line-height: 128px;
   width: 93.54px;
   height: 95px;
@@ -72,34 +75,39 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 }
 
 .roll {
-  margin-bottom: 30px;
+  margin-bottom: -4px;
 }
 
 .roll h1 {
-  font-size: 172px;
-  text-align: center;
+  font-size: 41vw;
   font-weight: 600;
-  line-height: .7;
+  line-height: .8;
   letter-spacing: 16.5px;
 }
 
 .roll h2 {
-  font-size: 92px;
-  line-height: 1;
-  text-align: center;
+  font-size: 18vw;
+  line-height: .7;
 }
 
 .location h3 {
-  font-size: 101px;
-  text-align: center;
+  font-size: 42vw;
   letter-spacing: 1px;
+  line-height: .7;
+  overflow-wrap: anywhere;
+}
+
+.location.in h3 {
+  font-size: 101px;
+  letter-spacing: 1px;
+  margin-top: -37px;
 }
 
 .location h2 {
-  font-size: 87px;
-  text-align: center;
+  font-size: 32vw;
   letter-spacing: -4px;
-  line-height: 1.1;
+  line-height: .8;
+  overflow-wrap: anywhere;
 }
 
 .projects {
@@ -113,6 +121,7 @@ h2, .name h3, .name h4, .roll h1, .location h3, .projects a {
 .projects a {
   font-size: 48px;
   text-align: left;
+  color: #E84A5F;
   line-height: 1.5;
   letter-spacing: -2px;
   text-decoration: underline 2px #E84A5F;
