@@ -57,6 +57,7 @@ nav h4 a {
   font-size: 14vw;
   font-weight: bold;
   text-align: left;
+  letter-spacing: -3px;
 }
 
 .apps-titles h2 {
@@ -66,21 +67,25 @@ nav h4 a {
   margin-bottom: 4vh;
   font-weight: 200;
   overflow-wrap: anywhere;
+  letter-spacing: -3px;
 }
 
 .apps-titles p {
   line-height: 1.2;
-  font-size: 13px;
+  text-align: left;
+  font-size: 16px;
 }
 
 .apps-titles ul {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
+  text-align: left;
 }
 
 .apps-titles ul li {
   line-height: 1.2;
   margin-top: 2%;
+  text-align: left;
 }
 
 .apps-titles h2 {
@@ -89,6 +94,8 @@ nav h4 a {
 
 .apps-titles a {
   text-decoration: none;
+  color: #E84A5F;
+  text-align: left;
 }
 
 .square-js {
@@ -98,4 +105,17 @@ nav h4 a {
   width: 97px;
   height: 71px;
   background-color: #30384C;;
+}
+
+@media screen and (min-width: 768px) {
+  .apps-titles {
+    width: 76vw;
+  }
+  .apps-titles h1 {
+    font-size: 7vw;
+  }
+
+  .apps-titles h2 {
+    font-size: 5vw;
+  }
 }
