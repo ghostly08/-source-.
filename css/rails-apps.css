@@ -1,3 +1,4 @@
+/* @import url("components/navbar.css"); */
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +7,13 @@
   font-family: 'Manrope', sans-serif;
   color: #2A2F3D;
   text-align: center;
-  letter-spacing: -3px;
+  /* letter-spacing: -3px; */
   line-height: 68px;
   text-decoration: none;
 }
 
 body {
-  background-image: url('../images/javascript-apps.png');
+  /* background-image: url('../images/javascript-apps.png'); */
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -37,31 +38,64 @@ nav h4 {
 nav h4 a {
   font-weight: 500;
   font-size: 30px;
+  color: #2A2F3D;
 }
 
 .text-wrapper {
-  display: flex;
-  flex-direction: column;
   position: absolute;
   top: 22%;
   width: 100vw;
   padding-bottom: 80px;
 }
 
-.apps-names {
-  display: flex;
-  flex-direction: column;
-  margin: 0 2%;
+.apps-titles {
+  width: 85vw;
+  margin: 0 auto;
 }
 
-.apps-names a {
-  font-size: 71px;
+.apps-titles h1 {
+  font-size: 14vw;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: -3px;
+}
+
+.apps-titles h2 {
+  font-size: 16vw;
   color: #2A2F3D;
+  text-align: left;
+  margin-bottom: 4vh;
+  font-weight: 200;
+  overflow-wrap: anywhere;
+  letter-spacing: -3px;
+}
+
+.apps-titles p {
+  line-height: 1.2;
+  text-align: left;
+  font-size: 16px;
+}
+
+.apps-titles ul {
+  width: 100%;
+  margin: 0 auto;
   text-align: left;
 }
 
-.apps-names a:hover {
-  text-decoration: underline 3px #2A2F3D;
+.apps-titles ul li {
+  line-height: 1.2;
+  margin-top: 2%;
+  text-align: left;
+}
+
+.apps-titles h2 {
+  text-decoration: underline 5px #E84A5F;
+}
+
+.apps-titles a {
+  text-decoration: none;
+  color: #E84A5F;
+  text-align: left;
 }
 
 .square-js {
@@ -71,4 +105,17 @@ nav h4 a {
   width: 97px;
   height: 71px;
   background-color: #30384C;;
+}
+
+@media screen and (min-width: 768px) {
+  .apps-titles {
+    width: 76vw;
+  }
+  .apps-titles h1 {
+    font-size: 7vw;
+  }
+
+  .apps-titles h2 {
+    font-size: 5vw;
+  }
 }
