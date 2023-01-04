@@ -1,3 +1,4 @@
+/* @import url("components/navbar.css"); */
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +7,13 @@
   font-family: 'Manrope', sans-serif;
   color: #2A2F3D;
   text-align: center;
-  letter-spacing: -3px;
+  /* letter-spacing: -3px; */
   line-height: 68px;
   text-decoration: none;
 }
 
 body {
-  background-image: url('../images/javascript-apps.png');
+  /* background-image: url('../images/javascript-apps.png'); */
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -37,31 +38,57 @@ nav h4 {
 nav h4 a {
   font-weight: 500;
   font-size: 30px;
+  color: #2A2F3D;
 }
 
 .text-wrapper {
-  display: flex;
-  flex-direction: column;
   position: absolute;
   top: 22%;
   width: 100vw;
   padding-bottom: 80px;
 }
 
-.apps-names {
-  display: flex;
-  flex-direction: column;
-  margin: 0 2%;
+.apps-titles {
+  width: 85vw;
+  margin: 0 auto;
 }
 
-.apps-names a {
-  font-size: 71px;
-  color: #2A2F3D;
+.apps-titles h1 {
+  font-size: 14vw;
+  font-weight: bold;
   text-align: left;
 }
 
-.apps-names a:hover {
-  text-decoration: underline 3px #2A2F3D;
+.apps-titles h2 {
+  font-size: 16vw;
+  color: #2A2F3D;
+  text-align: left;
+  margin-bottom: 4vh;
+  font-weight: 200;
+  overflow-wrap: anywhere;
+}
+
+.apps-titles p {
+  line-height: 1.2;
+  font-size: 13px;
+}
+
+.apps-titles ul {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.apps-titles ul li {
+  line-height: 1.2;
+  margin-top: 2%;
+}
+
+.apps-titles h2 {
+  text-decoration: underline 5px #E84A5F;
+}
+
+.apps-titles a {
+  text-decoration: none;
 }
 
 .square-js {
